@@ -86,3 +86,43 @@ int türündeki değişkenler 32 bitlik işaretli veri depolarlar. Int değişke
 
 ![image](https://github.com/user-attachments/assets/2da3a509-00a2-43a9-80a3-5b9591ec4ba1)
 
+İlk konuda yer alan diğer örnekler için repomu inceleyebilirsiniz.
+
+
+## C# Eğitim Kampı Ders 2 - String, Int, Double, Char Değişkenler, Klavye Veri Girişleri, Dönüşümler
+### 📆 Tarih: 1 Ekim 2024
+### 📋 C# Konsol Uygulamasından Yapılan Uygulamalar:
+
+Bu eğitimde Double - Char değişkenlerini, klavyeden String değişkenlerden veri girişlerini, tam sayı girişleri ve dönüşümleri, ondalıklı sayı işlemlerini ve karakter girişlerini öğrendim ve uyguladım.
+
+## Double Değişkenler
+Çok sayıda ondalık basamak içeren reel sayılar için kullanılır. Double türündeki değişkenler 64 bitlik (8 byte) gerçek sayı depolarlar. Double değişkeni 1.7E +/- 308 (15 basamak) arasında değer depolayabilmektedir.
+
+![image](https://github.com/user-attachments/assets/e09137a1-053b-4a85-b6e8-c8c98a6f1534)
+
+Burada oluşturduğumuz ondalık sayı örneğinde ondalığı belirtmek için nokta kullanırız.
+
+## Char Değişkenler
+Char veri türü 16 bit uzunluğunda Unicode standartlarında karakterlerin karşılıklarını tutan veri tipidir. Her bir karakterin Unicode standartları çerçevesinde bir karşılığı bulunmaktadır ve char tipinde değişken değer atandıktan sonra bir karakteri temsil etmektedir. Char veri türü çift tırnak yerine tek tırnak kullanılır.
+
+![image](https://github.com/user-attachments/assets/ced45bba-a994-4c7e-b5e0-1ec3710429d0)
+
+## Klavyeden Veri Girişleri String Değişkenler (Console.ReadLine())
+Bu metod ile kullanıcını klavyeden girdiği değer okunur. Okunan değer metin (string) tipinde bir ifade olarak geri döndürür. Döndürülen değer string olduğundan dönene değer string tipinde bir değişkene atanabilir.
+
+![image](https://github.com/user-attachments/assets/36c766f6-5b7a-4a27-bdc3-0b37aee5a956)
+
+Burada string tipinde isim ve soyisim ismiyle iki tane değişken atadık. Kullanıcıdan veri almak için bu kez Console.ReadLine metodunu kullandık. Programımızı çalıştırdıktan sonra ismimizi ve soyismimizi girdikten sonra ekran çıktısına Merhaba "İsim" "Soyisim" olarak karşımıza çıkacaktır.
+
+## Klavyeden Tam Sayı Girişleri ve Dönüşümler
+Burada direkt Console.ReadLine() metodunu kullanırsak hata verecektir. Dönen değer ile aritmetiksel işlem yapılacak ise tip dönüşümü yapılarak gerekli veri tipine (int, float) dönüştürülerek kullanılabilir. Int veri tipini dönüştürmek için int.Parse veya Convert.ToInt32 metodu kullanılabilir.
+
+![image](https://github.com/user-attachments/assets/14dc3f82-0f03-4194-a755-da8d0f644856)
+
+## Klavyeden Ondalık Sayı İşlemleri
+![image](https://github.com/user-attachments/assets/a580e771-c82e-4e9b-94f0-61615c257c2d)
+Bu örnekte ise kullanıcıdan alınan 3 tane sınav notunu ondalık sayı veya tam sayı olarak giriyoruz ve girdiğimiz bu değerleri 3'e bölüyoruz.
+
+## Klavyeden Karakter Girişleri
+![image](https://github.com/user-attachments/assets/189a7d65-22c9-4ed3-9286-205b14679af1)
+Bu örnekte ise kullanıcıdan char tipinde bir tane harf giriyoruz, eğer bir harf dışında birden fazla harf ile girerken program hata verecektir. Burada herhangi bir harf girdiğimiz zaman ekran çıktısında o girdiğimiz harfi gösterecektir.
