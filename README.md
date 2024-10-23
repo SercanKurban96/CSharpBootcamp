@@ -52,6 +52,37 @@ Region, kodların okunurluğunu arttırmak ve daha düzenli bir yapıda saklamak
 
 Projeyi çalıştırmak için yukarıda yer alan Start tuşuna veya kısayoldan F5 ile çalıştırabiliriz. Ancak program çalıştıktan sonra hemen kapanacaktır. Bunun için ek olarak en alt satıra Console.Read(); komutunu ekliyoruz.
 
+### Console.Read() nedir?
+Console.Read(): Bu metod tek bir karakter okur. Geriye okunan karakterin ascii karşılığı olan bir sayı döndürür. Döndürülen değer sayı olduğundan değer sayı veri tipinde bir değişkene aktarılabilir.
+
 ![image](https://github.com/user-attachments/assets/b1f6c9d4-107e-436a-82ea-0e6bac47620f)
 
 Programımızı çalıştırdıktan sonra karşımıza bu şekilde çıkacaktır.
+
+![image](https://github.com/user-attachments/assets/d32f63db-0eb9-4d13-994c-2b00737d7be6)
+
+Burada sadece Console.WriteLine komutunu kullanarak Yemek Kategorileri adında mini bir program tasarladık. Daha önceki Merhaba Dünya komutunda ise program çalıştığı zaman kodu ekrana göstermemesi için yorum satırına aldık.
+
+### Yorum Satırı
+Kodlarınızı yazarken, yazılan ifade ve satırlarla ilgili yorumlar eklemek istiyorsanız // operatörünü kullanabilirsiniz. // ile başlayan satırlar, işlenecek kod olarak kabul edilmez, yani bu satırlara yazdığınız ifadelerin programın çalışmasına bir etkisi olmaz. Yorum satırları, yapılan işlerin neden ve nasıl yapıldığını açıklamak için kullanılır ve bu anlamda çok önemlidir. Daha sonra, yazılan kodların yazan kişi ya da bir başkası tarafından anlaşılmasına yardımcı olabilir.
+
+// operatörüyle oluşturulan tek satırlık yorumların yanı sıra, istenirse birden çok yorum satırı, en başa /* ve en sonra */ operatörleri konularak belirtilebilir. Bu iki operatör arasındaki ifadelerin tümü birer yorum satırı olarak değerlendirilir.
+
+## String Değişkenler
+Stringler yazı metni depolamak için kullanılır. Bir değişken belirleyip ve ona değer atandıktan sonra string ifadesi oluşturabiliriz.
+String oluşturmak için Değişken_türü değişken_adı; olarak kullanırız. 
+
+![image](https://github.com/user-attachments/assets/ea2d0d80-ba40-4007-8485-269d96f8b8f4)
+
+String ile örnek kullanım bu şekildedir. Değişkenin adını isimSoyisim olarak belirledik. Burada tanımlayacağımız değerler tırnak içinde yazılmalıdır. En sonda konsola yazdırmak için tanımladığımız değişkeni kullanıyoruz.
+
+![image](https://github.com/user-attachments/assets/b567c241-a948-45f7-a44a-d3394f55cff0)
+
+Direkt tek satır olarak da yazılabilir.
+
+## Int Değişkenler
+Uygulama geliştirirken en sık kullandığımız değişkenlerden biri "int" türüdür. Bunda en önemli etken tam sayı değer tutabilmesi ve veri aralığının geniş olmasıdır.
+int türündeki değişkenler 32 bitlik işaretli veri depolarlar. Int değişkeni -2.147.483.648 ile 2.147.483.647 arasında değer depolayabilmektedir.
+
+![image](https://github.com/user-attachments/assets/2da3a509-00a2-43a9-80a3-5b9591ec4ba1)
+
