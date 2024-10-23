@@ -126,3 +126,65 @@ Bu örnekte ise kullanıcıdan alınan 3 tane sınav notunu ondalık sayı veya 
 ## Klavyeden Karakter Girişleri
 ![image](https://github.com/user-attachments/assets/189a7d65-22c9-4ed3-9286-205b14679af1)
 Bu örnekte ise kullanıcıdan char tipinde bir tane harf giriyoruz, eğer bir harf dışında birden fazla harf ile girerken program hata verecektir. Burada herhangi bir harf girdiğimiz zaman ekran çıktısında o girdiğimiz harfi gösterecektir.
+
+## 🖥️ C# Eğitim Kampı Ders 3 - Karar Yapılar, If Else, Switch Case, Break
+### 📆 Tarih: 5 Ekim 2024
+### 📋 C# Konsol Uygulamasından Yapılan Uygulamalar:
+
+Bu eğitimde if - else yapılarını, switch case yapılarını ve break komutunu öğrendim ve uyguladım.
+
+## If - Else
+if else kodları C# yazılımda karar verme yapılarıdır. Programın akışı if else ile belirlenir. Belirli bir şarta bağlı olarak işlemler yapılacaksa if else kontrolleri kullanılır. Burada if ifadesi içerisinde şart belirtilir, eğer şart doğru ise if kod bloğunun içerisindeki komutlar çalıştırılır. Eğer şart doğru değilse else kod bloğunun içerisindeki komutlar çalıştırılır. Birden fazla şartın olduğu durumlarda iç içe if else yapıları kullanılır.
+
+![image](https://github.com/user-attachments/assets/9882e6ab-ef0e-4d07-ae1c-5d0ac4c0362a)
+
+Buradaki örnekte kullanıcıdan bir şifre girilmesi istenecektir. Şifre ise "abcd" olarak belirlenmiştir. Eğer girilen metin abcd ise if bloğun içindeki kod çalışacaktır. Yanlış girildiyse else bloğun içindeki kod çalışacaktır.
+
+![image](https://github.com/user-attachments/assets/4f477dc0-e5aa-40ad-a9b3-6847cb4998a9)
+
+Bu örnekte ise bu kez iki tane veri girişi uyguladık. İlk olarak başkenti, daha sonra ise ülkeyi kullanıcıdan aldık. Eğer girilen bilgilerin ikisi de doğruysa if bloğu, herhangi biri veya her ikisi de yanlışsa else bloğundaki kod çalışacaktır.
+
+## Mod İşlemleri
+Bir sayının başka bir sayıya bölümünden kalana mod denir. Mod alma işlemi de kalan bulma işlemi olarak ifade edilebilir. C# dilinde mod almak için % operatörü kullanılır.
+
+![image](https://github.com/user-attachments/assets/a1b2a76e-f5de-4649-9d8d-dfdc4576ec46)
+
+Burada number değişkenini 26 olarak atadık. Result değişkenine ise number değişkenini 26 olarak belirlediğimiz sayının 5 ile bölümünden kalan değerini belirledik.
+
+![image](https://github.com/user-attachments/assets/e764a302-4256-4d1a-9155-199523c05634)
+
+Bu örnekte ise hem mod operatörünü hem de karar yapılarını birlikte kullandık. Kullanıcıdan bir tane sayı girmesini istedik. Eğer girilen sayının 2 ile bölümünden kalan 0 ise sayı çift, kalan 1 ise tek olarak belirten bir tane örnek uyguladık.
+
+## Char Değişkenler ile Karar Yapıları
+
+![image](https://github.com/user-attachments/assets/0e7f6cc4-d24a-494e-8c87-7911b751f48a)
+
+Bu örnekte ise char değişkenine göre kullanıcıdan veri alma işlemini yaptık. Burada küçük veya büyük harfe göre girme işlemini yaptık.
+
+## Mantıksal Operatörler
+Mantıksal Operatörler (Logical Operators)
+Mantıksal operatörler tanımladığımız değişkenler ya da değerler arasında ki mantığı belirlemek için kullanılır. "true" ya da "false" değerleri üretirler.
+
+"&&" operatörü:  Dizide işlem sırasında bir yanlış bile görürse sonucu "false" olarak çıkarılır.
+
+"||" operatörü: İşlem sırasında bir tane doğru varsa sonuç "true" olarak çıkarılır.
+
+"!" operatörü:  Değerlerin  sonucu ters çevirir.
+
+## Switch-Case
+Switch-Case deyimi if-else deyimleri gibi karar kontrol yapılarıdır. Switch-Case ifadeleri yapabileceğiniz her şeyi if-else blokları ile de yapabiliriz. Bir ifade üç veya daha fazla koşula göre ayrıştırıldığında genel olarak if-else'e alternatif olarak switch case kullanılır.
+Bir koşul sağlandığında gerekli komutlar çalıştırıldıktan sonra break; ifadesi ile kontrol sonlandırılır. Bu demek oluyor ki her case ifadesi birbirinden farklı olmalıdır. Ve bir switch-case ifadesinde yalnızca bir case çalışmalıdır.
+
+Kontrol edilen değişken hiçbir sabit ifadeye eşit değilse default kodunu kullanıyoruz. Bu durumda kod default kısmında belirtilen kod bloğunu çalıştırır.
+
+Switch-Case ifadelerinde dikkat edilmesi gereken durumlar aşağıdaki gibidir:
+
+Case ifadelerinin sırası önemli değildir.
+
+Bilinenin aksine default ifadesi en son yazılmak zorunda değildir.
+
+Default ifadesi zorunlu değildir. Yazılmasa da olur.
+
+![image](https://github.com/user-attachments/assets/b02b6efa-c7b9-4cf0-aee4-c0b233b57997)
+
+Bu örnekte ise kullanıcıdan 1-12 arasında bir tane sayı giriyoruz. Girilen sayıya göre o sayının kaçıncı ay olduğunu göstermektedir. Eğer bu sayıların dışında başka bir sayı girersek default bloğunda yer alan kod çalışacaktır.
