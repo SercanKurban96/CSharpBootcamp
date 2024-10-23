@@ -1,7 +1,7 @@
-# 👋 C# EĞİTİM KAMPI
-Merhabalar, oluşturmuş olduğum bu repo, Murat Yücedağ hocamızın YouTube üzerinden hazırlamış olduğu C# Eğitim Kampı süresince tamamlamış olduğum projeleri içermektedir. Bu eğitimde C# Konsol Uygulaması'ndan "Merhaba Dünya" ile başlayıp en son yapılan uygulamaya kadar detaylar anlatılmaktadır.
+#  <img height="50" src="https://user-images.githubusercontent.com/25181517/121405384-444d7300-c95d-11eb-959f-913020d3bf90.png"> EĞİTİM KAMPI
+👋 Merhabalar, oluşturmuş olduğum bu repo, Murat Yücedağ hocamızın YouTube üzerinden hazırlamış olduğu C# Eğitim Kampı süresince tamamlamış olduğum projeleri içermektedir. Bu eğitimde C# Konsol Uygulaması'ndan "Merhaba Dünya" ile başlayıp en son yapılan uygulamaya kadar detaylar anlatılmaktadır.
 
-## C# Eğitim Kampı Ders 1 - Giriş, Merhaba Dünya, Yazdırma Komutları, String ve Int Değişkenler
+## 🖥️ C# Eğitim Kampı Ders 1 - Giriş, Merhaba Dünya, Yazdırma Komutları, String ve Int Değişkenler
 ### 📆 Tarih: 28 Eylül 2024
 ### 📋 C# Konsol Uygulamasından Yapılan Uygulamalar:
 
@@ -89,7 +89,7 @@ int türündeki değişkenler 32 bitlik işaretli veri depolarlar. Int değişke
 İlk konuda yer alan diğer örnekler için repomu inceleyebilirsiniz.
 
 
-## C# Eğitim Kampı Ders 2 - String, Int, Double, Char Değişkenler, Klavye Veri Girişleri, Dönüşümler
+## 🖥️ C# Eğitim Kampı Ders 2 - String, Int, Double, Char Değişkenler, Klavye Veri Girişleri, Dönüşümler
 ### 📆 Tarih: 1 Ekim 2024
 ### 📋 C# Konsol Uygulamasından Yapılan Uygulamalar:
 
