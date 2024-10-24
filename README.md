@@ -360,3 +360,33 @@ Daha sonra döngü işlemlerimizi yapıyoruz. Burada i değeri 0'dan başlatıp 
 Bu kez ekranda yazdıklarımızı görüntülemek için yukarda yer alan döngüyü tekrar yazıyoruz ve en sonunda yazdırma işlemini uyguluyoruz.
 
 ### ✅ Bu eğitimde dizilerin tanımını ve kullanımını, dizideki tüm elemanlarını listelemeyi ve sıralamayı, dizi metotlarını ve dizilerle kullanıcıdan değer almayı öğrendim ve uyguladım.
+
+## 🖥️ C# Eğitim Kampı Ders 7 - Foreach Döngüsü
+### 📆 Tarih: 15 Ekim 2024
+### 📋 C# Konsol Uygulaması ile Yapılan Uygulamalar:
+
+## 📍 Foreach Döngüsü
+for döngüsü gibi yaygın kullanılan bir diğer döngü de foreach döngüsüdür. foreach, dizi (array) ve koleksiyon (collection) tabanlı nesnelerin elemanları üzerinden ilerleyen, iterasyon gerçekleştirerek bu elemanlara erişip iş katmanınızı oluşturabileceğiniz bir döngüdür. Bu döngünün genel kullanımı aşağıdaki gibidir:
+
+foreach (tip değişken in koleksiyon)
+
+{
+
+yapılacak işler
+
+}
+
+değişken: foreach döngüsü içinde iterasyon için kullanılacak değeri temsil eder.
+
+koleksiyon: Dizi, ArrayList, Generic List, Dictionary gibi aynı tipleri barındıran liste yapılarıdır.
+
+tip: Her döngüde kullanılacak ve içinde farklı değerlerin bulunacağı değişkenin string, int, byte gibi ilgili tipinin belirtildiği alan.
+
+![image](https://github.com/user-attachments/assets/f9b93118-c1d5-4525-a547-60846605b297)
+
+Burada string türünden bir tane dizi oluşturduk ve ismini cities olarak belirledik. Yazdığımız şehirleri listelemek için bu kez foreach döngüsü kullandık. Burada x adında rastgele bir değişken ismi belirledik ve değerleri cities koleksiyonundan aldık. Yazdırmak için en son tanımlamış olduğumuz x değişkenini yazdırıyoruz.
+Aynı zamanda int değişkeni ile foreach döngüsü oluşturulabilir, şartlı ifadeler de kullanılabilir.
+
+Bu dersimizde ise bir tane Örnek Sınav Sistemi Uygulaması oluşturdum. Örneği incelemek için repomu inceleyebilirsiniz.
+
+### ✅ Bu eğitimde foreach döngüsünün tanımını ve kullanımını ve bir tane Örnek Sınav Sistemi Uygulaması ile öğrencilerin sayısını kullanıcıdan almayı, isimlerini ve not ortalamalarını saklayacak dizilerin kullanımını ve her bir öğrenci için 3 tane sınav notu girişinin nasıl yapıldığını öğrendim ve uyguladım.
