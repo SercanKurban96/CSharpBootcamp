@@ -305,4 +305,58 @@ Dizilerin bir diğer kullanım şekli ise direkt değerini yazmak yerine elemanl
 
 ![image](https://github.com/user-attachments/assets/a6308893-e0a0-4809-8117-64096cb60283)
 
-Bu örnekte colors adında bir tane değişken tanımlayıp içerisine renkleri belirledik. Daha sonra dizideki tüm elemanlarını listelemek için döngünün içine girerek başlangıç değerini 0'dan başlatıp bitiş değerini renklerin tamamını listelemek için colors değişkeninden sonra Length fonksiyonunu kullandık. Programımızı çalıştırdıktan sonra dizi içerisinde yer alan tüm renkler listelenecektir.
+Bu örnekte colors adında bir tane değişken tanımlayıp içerisine renkleri belirledim. Daha sonra dizideki tüm elemanlarını listelemek için döngünün içine girerek başlangıç değerini 0'dan başlatıp bitiş değerini renklerin tamamını listelemek için colors değişkeninden sonra Length fonksiyonunu kullandım. Programımızı çalıştırdıktan sonra dizi içerisinde yer alan tüm renkler listelenecektir.
+
+![image](https://github.com/user-attachments/assets/84bd2c64-9b7b-4441-ae86-2d7bbf51319d)
+
+Bu örneğimizde ise numbers değişkeninde yer alan elemanların sadece 3 ile bölünenleri listeleyen bir program yazdım. Bunun dışında char fonksiyonundan da elemanlar listelenebilir.
+
+![image](https://github.com/user-attachments/assets/cd131911-a835-4aef-85b6-ff42e659f65b)
+
+Bu örneğimizde ise direkt persons listesinde yer alan elemanların kaç tane olduğunu gösteren bir program yazdım.
+
+![image](https://github.com/user-attachments/assets/0699a6e9-97ee-40a1-914b-71c4670113ad)
+
+### 📍 Array.Sort
+Diziler üzerinden sıralama işlemi yapar. Eğer string bir dizi ise alfabetik olarak olarak A'dan Z'ye sıralar. Eğer numeric bir dizi ise dizi elemanlarını küçükten büyüğe sıralar. Örnek kullanım aşağıda verilmiştir.
+
+![image](https://github.com/user-attachments/assets/64dcb7ac-cc72-4507-8b3e-2f8ceb3aa7f2)
+
+Bu örneğimizde ise listede yer alan sayıları küçükten büyüğe sıralamak için Array.Sort metodunu uyguladım.
+
+### 📍 Array.Reverse
+Dizinin ortasını belirleyerek elemanlarını aynalar gibi düşünebilirsiniz. Yani dizinin ilk elemanı ile son elemanını yer değiştirir. Örnek kullanım aşağıda verilmiştir.
+
+![image](https://github.com/user-attachments/assets/c8647d47-c2a6-4500-9ed1-757f0f882dca)
+
+Bu örneğimizde listede yer alan sayıları sondan başa olan değerleri yazdırmaktadır.
+
+## 📍 Dizi Metotlar
+### 📍 Array.IndexOf
+Verilen dizinin verilen elemanının indexini getirir. Eğer dizi içerisinde elemanı bulamazsa -1 döner. Örnek kullanım aşağıda verilmiştir.
+
+![image](https://github.com/user-attachments/assets/611ac0e5-138f-4e44-a1a0-2ac491639811)
+
+Bu örneğimizde customers listesinde yer alan kişiler listelenmiştir. Burada Array.IndexOf metodu ile listede yer alan kişilerden birinin ismini giriyoruz. Eğer yazdığımız isim listede yer alıyorsa dizinin indeksine göre değer dönderecektir. Örneğin "merve" değerini yazdığımız zaman listede var ise "merve" ismi 3. indekste yer aldığı için program çıktısı 3 olarak gösterecektir. Eğer listede ismi olmayan bir değer girersek -1 olarak dönderecektir.
+
+### 📍 Max Min Metodu
+Max: dizideki en büyük elemanı döndürür.
+
+Min: en küçük değeri döndürür.
+
+![image](https://github.com/user-attachments/assets/d86f6851-7f98-49e4-8b24-e4e299819f86)
+
+Bu örneğimizde listede yer alan sayılardan en büyük ve en küçük elemanları bulmak için Max ve Min metodlarını kullandım.
+
+## 📍Kullanıcıdan Değer Alma
+Bilgilerimizi pekiştirerek bir tane örnek yapalım.
+
+![image](https://github.com/user-attachments/assets/eaa87525-46d4-4b3d-822f-82adddc478a7)
+
+Bu örneğimizde ilk olarak string türünde bir tane dizi oluşturalım ve ismini cities olarak belirleyelim. Burada 5 tane değer oluşturalım.
+Daha sonra döngü işlemlerimizi yapıyoruz. Burada i değeri 0'dan başlatıp cities değişkeninin uzunluğuna kadar olan değerlerimizi yazıyoruz.
+Şehir ismini kullanıcıdan almak için cities[i] değişkenine aktarıyoruz.
+Şehirleri yazdıktan sonra bir tane Console.WriteLine() metodu ile bir boşluk bırakıyoruz.
+Bu kez ekranda yazdıklarımızı görüntülemek için yukarda yer alan döngüyü tekrar yazıyoruz ve en sonunda yazdırma işlemini uyguluyoruz.
+
+### ✅ Bu eğitimde dizilerin tanımını ve kullanımını, dizideki tüm elemanlarını listelemeyi ve sıralamayı, dizi metotlarını ve dizilerle kullanıcıdan değer almayı öğrendim ve uyguladım.
