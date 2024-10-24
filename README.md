@@ -204,21 +204,26 @@ y: bitiş
 z: artış-azalış
 
 ![image](https://github.com/user-attachments/assets/0bcb394c-887a-4660-aafb-7942b87b9dde)
+
 Örneğimizde ilk olarak int değerinde i adında bir değişken ismi tanımladık. Daha sonra for döngüsü için parametrelerimizi yazdık. i değişkeninin başlangıç değerini 1 olarak ayarladık, bitiş değerini ise 5 olarak ayarladık, buradaki <= işareti ise bitiş değerinin de dahil olduğu anlamına gelir, arttırma işlemi olarak birer birer arttırdık. For döngüsünde parametreleri yazdıktan sonra noktalı virgül kullanmak yerine süslü parantezleri kullandık. Süslü parantezin içine ise ekrana "C# Eğitim Kampı" yazdırdık. Program çalıştırıldığı zaman ekrana 5 defa "C# Eğitim Kampı" yazdırılacaktır.
 
 ![image](https://github.com/user-attachments/assets/d68ca105-150c-4c6f-bd00-10c6ffa1dd9e)
+
 Buradaki örnekte ise bu kez i değerini 3'ten başlatıp bitiş değerini 50 olarak ayarladık, ancak bu kez arttırma işlemini üçer üçer olarak belirledik. Daha sonra ekrana i değerini yazdırdığımız zaman program çıktısında üçer üçer yazdırılacaktır.
 
 ![image](https://github.com/user-attachments/assets/46dd4310-a028-445c-a290-dfe320f89299)
+
 Bir diğer örneğimizde ise bu kez bitiş değerini kullanıcıdan almayı denedik. Değişken ismini tekrardan i olarak belirledik. i değeri başlangıçta 1 olarak belirledik, bitiş değeri ise kullanıcının girdiği değere göre belirledik ve artış değerini bir olarak belirledik. Programı çalıştırdıktan sonra kullanıcıdan bitiş değeri almamız istenecektir. Örneğin 5 girdiğimizde program çıktısında 5 defa "Yaşasın Cumhuriyet" yazdırılacaktır.
 
 ### 📍 For Döngüsü ile Karar Yapıları
 For döngüsünde sadece yazdırma işlemlerinde değil, aynı zamanda karar yapılarında da kullanabiliriz.
 
 ![image](https://github.com/user-attachments/assets/c16ecc3d-6649-4aa4-b082-0f9f5e1702da)
+
 Bu örneğimizde başlangıç değeri 1, bitiş değeri 100 ve artış değeri 1 olan parametreleri girdik, ancak burada bir şart belirledik. Eğer i değeri 5 ile bölümünden kalan 0 ise ekrana sadece 5 ile bölünenleri gösterecektir.
 
 ![image](https://github.com/user-attachments/assets/3420dd3f-4b9e-4b2e-ae82-312c1554e348)
+
 Bu örneğimizde 1 ile 10 arasında olan sayıların toplamını veren bir program yazdık. İlk olarak toplamını vermesi için totalValue değişkenini 0 olarak belirledik. Daha sonra döngüde i değişkeninin değerlerini belirledik. Başlangıç değeri 1, bitiş değeri 10 ve artış değerini 1 olarak belirledik. Her bir döngü işleminde kendisinden bir önceki değeri toplayacaktır. Döngü işlemi bittikten sonra döngüden çıkacak ve toplam değerini ekrana yazdırılacaktır.
 
 ### 📍 While Döngüsü
@@ -234,14 +239,17 @@ y: bitiş
 z: artış-azalış
 
 ![image](https://github.com/user-attachments/assets/5e961a33-8d6e-4338-9578-fc87384731fa)
+
 Burada ilk olarak int değerinde i değişkenini 1 olarak belirledik. Daha sonra while döngüsünün kullanımına geçtik. Burada i değerini 10'a kadar belirledik. While döngüsü kullanımından sonra süslü parantezin içerisine "Merhaba Döngüler" yazdırdık. İşlemler bittikten sonra burada artış miktarını belirlememiz gereklidir. Burada artış miktarını birer olarak belirledik. Program çalıştırıldığında ekrana 10 defa "Merhaba Döngüler" yazacaktır.
 
 ![image](https://github.com/user-attachments/assets/44c23d8d-00d9-479d-8e1d-949a40e7a8e2)
+
 Bu örneğimizde de karar yapılarını kullandık. 1'den 10'a kadar olan değerin 3 ile tam bölünebilenleri ekrana yazdırdık.
 
 ### 📍 Örnek Sınav Sorusu
 
 ![image](https://github.com/user-attachments/assets/8eb2ba52-639a-4669-9f8b-efcfe1eaa9f0)
+
 Bu örneğimizde daha önceki konularda yer alan bilgilerle öğrendiklerimizi pekiştirmek için bir tane uygulama yaptık. Uygulamamızda 3 basamaklı bir sayının basamaklarını ayırmayı ve basamak değerleri toplamını hesaplayan bir uygulama yaptık.
 Örneğimizde ilk olarak kullanıcıdan bir sayı girme işlemini yaptık. Sayı değişkenini number olarak belirledik.
 Basamaklarını ayırabilmek için birler, onlar ve yüzler değerlerini almamız gerekmektedir. Bunun için değişken isimlerini de ingilizce olarak belirledik.
