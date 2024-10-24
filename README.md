@@ -261,3 +261,48 @@ Yüzler basamağını ise sayının 100'e bölme işlemini yaptık. (Örnek olar
 Daha sonra konsola tek tek değerlerini yazdırdık ve basamak değerlerini toplattırıp ekrana yazdırdık.
 
 ### ✅ Bu eğitimde for, while döngülerini ve örnek sınav uygulamasının adımlarını öğrendim ve uyguladım.
+
+## 🖥️ C# Eğitim Kampı Ders 5 - Döngülerle Pratik Uygulamalar, Yıldızlarla Şekil Çizme
+### 📆 Tarih: 8 Ekim 2024
+### 📋 C# Konsol Uygulaması ile Yapılan Uygulamalar:
+
+Bu eğitimde döngülerden oluşan 10'a yakın örnek uygulamalar yaptım.
+
+![image](https://github.com/user-attachments/assets/72ffef9e-0acc-4da8-a52a-5685528273ad)
+
+Bu örnekte 1'den 10'a kadar olan alt alta 10 tane yıldız oluşturma uygulaması yaptım. Eğer yan yana 10 tane yıldız oluşturmak istiyorsak Console.WriteLine() kısmını Console.Write() olarak değiştirmemiz yeterli olacaktır.
+
+![image](https://github.com/user-attachments/assets/d0591be5-e133-4072-a509-889713093268)
+
+Bu örnekte bir tane dik üçgen uygulaması oluşturdum. Burada ilk for döngüsünde 1'den 5'e kadar olan parametreyi belirledik. Ancak bizim burada bir tane daha döngü oluşturmamız gerekecektir. Bu kez iç içe bir tane daha döngü oluşturduk ve değişken ismini j olarak belirledik. j değeri 1'den başlayıp i değerine kadar olan parametreyi belirledik. Yazdırmak için Console.Write() metodunu kullanarak * şeklini yazdırdık. İkinci döngüden çıkarak bu kez boş bir tane Console.WriteLine() metodu yazarak alta boşluk bırakmasını sağladık.
+
+Kalan örneklere bakmak için repomu inceleyebilirsiniz.
+
+### ✅ Bu eğitimde for döngüleri ile alt alta - yan yana 10 tane yıldız oluşturmayı, dik üçgen - ters dik üçgen oluşturmayı, baklava dilimi oluşturmayı, piramit oluşturmayı öğrendim ve uyguladım.
+
+## 🖥️ C# Eğitim Kampı Ders 6 - Diziler
+### 📆 Tarih: 12 Ekim 2024
+### 📋 C# Konsol Uygulaması ile Yapılan Uygulamalar:
+
+## 📍 Diziler (Arrays)
+Diziler, farklı değerler için ayrı değişkenler atamak yerine birden çok değeri aynı değişken türünde depolamak için kullanılır. Dizi belirtmek için değişken türünü köşeli pantezlerle tanımlarız. Diziler 0'dan başlar. String ifadeler de dizi belirtir.
+
+Örnek kullanımı şu şekildedir: DeğişkenTürü [] DiziAdı = new DeğişkenTürü[ElemanSayısı];
+
+![image](https://github.com/user-attachments/assets/ec6ef51e-81f9-4e68-9cf5-e1a165323ea4)
+
+Burada colors adında bir tane dizi tanımladık ve dizi elemanını 4 olarak belirledik. Dizi elemanı 0'dan başladığı için 0'ıncı değerini "Kırmızı", 1'inci değerini "Sarı", 2'nci değerini "Beyaz" ve 3'üncü değerini "Mavi" olarak belirledik. Eğer burada colors[4] olarak herhangi bir değer tanımlasaydık program hata verecekti, çünkü dizinin eleman değerini aşmış olacaktı. Ekrana herhangi bir değerini yazdırabiliriz. Burada "Beyaz" elemanını yazdırdık.
+
+![image](https://github.com/user-attachments/assets/b794acc5-ef51-4eee-8bd1-189253b5372d)
+
+Burada ise int tipinde bir dizi tanımladık. Elemanını 10 olarak belirledik. Burada 10 tane eleman oluşturmak zorunda değiliz. Birkaç eleman oluşturup bu değerlerden birini veya birkaçını yazdırabiliriz.
+
+![image](https://github.com/user-attachments/assets/8993d0bf-852f-4354-b272-fa4ce2fdcb6e)
+
+Dizilerin bir diğer kullanım şekli ise direkt değerini yazmak yerine elemanların isimlerini de girebiliriz. Burada cities[2] değerini çağırdığımız zaman 3. sıradaki elemanı yazdıracaktır, bunun nedeni dizi değerinin 0'dan başlamasıdır.
+
+## 📍 Dizideki Tüm Elemanları Listeleme
+
+![image](https://github.com/user-attachments/assets/a6308893-e0a0-4809-8117-64096cb60283)
+
+Bu örnekte colors adında bir tane değişken tanımlayıp içerisine renkleri belirledik. Daha sonra dizideki tüm elemanlarını listelemek için döngünün içine girerek başlangıç değerini 0'dan başlatıp bitiş değerini renklerin tamamını listelemek için colors değişkeninden sonra Length fonksiyonunu kullandık. Programımızı çalıştırdıktan sonra dizi içerisinde yer alan tüm renkler listelenecektir.
