@@ -401,3 +401,53 @@ Metotlar, belirli bir işlevi yerine getirmek için hazırlanmış belirli bir k
 ### 📍 Parametresiz Metotlar
 C# parametresiz metotlar tanımlanırken herhangi bir parametre değerine bağlı olmadan içerisinde bulunan kod parçalarının çalıştırılmasına imkan veren metot türleridir.
 
+### 📍 Geriye Değer Döndürmeyen Metotlar
+C# Metot türleri başlığı altında void metotlar olarak da bilinirler. Bu metot içeriğinde geriye değer döndüren metotlarda olduğu gibi return anahtar sözcüğü kullanılmaz. Genellikle bir işlemi çalıştırmak, bir işlemi defalarca yazdırmak yerine tek bir metot aracılığı ile yazdırmak istediğimiz zaman kullanırız.
+
+![image](https://github.com/user-attachments/assets/2e6cfcc9-97a9-42ee-91a7-c93320cf91f4)
+
+Bu örneğimizde kendimiz bir metot oluşturduk. Geriye değer döndürmeyeceği için burada void metodunu kullandık ve ismini CustomerList olarak belirledik. Burada 4 tane isim belirledik ve bu metodu çağırabilmek için metodun ismini yazıp sonuna () eklememiz yeterlidir. () işareti metot anlamına gelmektedir. Program çalıştırıldığında ekranda yer alan bütün isimler gözükecektir.
+
+![image](https://github.com/user-attachments/assets/9bae077a-c0ea-4c5d-a75b-55c23be67d94)
+
+Bu örneğimizde ise toplama işlemini yapan bir tane Sum metodu kullandık. x değerini 1, y değerini 2 olarak belirledik ve z değerini ise x ile y'nin toplamını atama işlemini yaptık. z değerini yazdırdıktan sonra metodu çağırabilmek için süslü parantezin dışına çıkarak yazmış olduğumuz metodu çağırıyoruz.
+
+### 📍 Geriye Değer Döndürmeyen String Parametreli Metotlar
+
+![image](https://github.com/user-attachments/assets/89d68871-a928-42e1-b63f-c9837000cd84)
+
+Burada void türünden WriteMethod isminde bir metot oluşturduk ancak parantez içine bir tane string parametresi ekledik. İsmini customerName olarak belirledik ve yazdırma işlemini uyguladık. Fonksiyonu çağırmak için süslü parantezin dışına gelip WriteMethod metodunu yazıyoruz ancak buranın içine string tipinde bir metin girmemiz gerekmektedir, yoksa program hata verecektir.
+
+### 📍 Geriye Değer Döndürmeyen Int Parametreli Metotlar
+
+![image](https://github.com/user-attachments/assets/02390a53-534a-4142-be09-a00874346f14)
+
+Önceki string parametreli metot örneği üzerinden bu kez int üzerinden bir örnek yaptık. Burada Sum adında bir metot uygulayıp içerisine 3 tane int değerinde parametre kullandık ve bunları toplattırdık. Metotu çağırdığımızda daha önceden belirlediğimiz 3 tane yazdığımız parametrelere karşılık gelen değerleri yazıyoruz.
+
+### 📍 Geriye Değer Döndüren Metotlar
+Aldığı isimden anlaşılacağı üzere işlem sonucunda sahip olduğu veri tipinde bir değer döndüren metot türüdür. Bu tür geriye değer döndüren metotları kullanırken return anahtar sözcüğünü kullanmamız gerekmektedir.
+
+![image](https://github.com/user-attachments/assets/68d6cd53-a01c-47de-a84a-20b0ac0525ea)
+
+Bu örneğimizde string türünde CustomerName adında parametresiz bir metot belirledik ve burada anahtar sözcüğü olan return ifadesini kullandık. Ekrana yazdırmak için Console.WriteLine metodunun içine yazmış olduğumuz metodu dahil ettik.
+
+### 📍 Geriye Değer Döndüren Parametreli Metotlar
+Parametre almadan geriye değer döndüren metotlardan pek farkı yoktur. Oluşturduğumuz veri tipinde ve tanımladığımız parametreleri kullanarak geriye bir değer döndürmeyi sağlayan metot türüne C# geriye değer döndüren parametreli metotlar denir.
+
+### 📍 Geriye Değer Döndüren String Parametreli Metotlar
+
+![image](https://github.com/user-attachments/assets/78c53d10-cf12-4e92-b2b4-c3034c065126)
+
+Burada string türünde CountryCard isminde bir metot belirleyip içerisine string türünde 3 tane parametre (countryName,capital,flagColor) belirledik. Belirlediğimiz parametreleri içerisinde bir tane string türünden cardInfo tanımladık ve return anahtar sözcüğü ile geriye değer döndürme işlemini uyguladık. Metot işlemi bittikten sonra bu kez parametrelere karşılık gelen değişkenleri belirledik ve bu değerleri kullanıcıdan almasını sağladık.
+
+### 📍 Geriye Değer Döndüren Int Parametreli Metotlar
+
+![image](https://github.com/user-attachments/assets/81386ba4-e93d-480e-9af6-42524d3fbb98)
+
+Bu örneğimizde ise bu kez int türünde Sum isminde bir metot belirleyip içerisinde int türünde 2 parametre belirledik ve bunları toplattırma işlemini yaptık.
+
+![image](https://github.com/user-attachments/assets/e25b543c-5660-4cfe-9fe7-841b20edee68)
+
+Metotları öğrendikten sonra öğrendiklerimizi pekiştirerek bir tane öğrencinin sınav notuna göre geçip geçemediğini belirleyen bir uygulama yaptım.
+
+### ✅ Bu eğitimde metotların tanımını ve kullanımını, void metotları, geriye değer döndürmeyen string - int parametreli metotları, geriye değer döndüren string - int parametleri metotları ve metotlarla ilgili örnek uygulamanın adımlarını öğrendim ve uyguladım.
