@@ -390,3 +390,14 @@ Aynı zamanda int değişkeni ile foreach döngüsü oluşturulabilir, şartlı 
 Bu dersimizde ise bir tane Örnek Sınav Sistemi Uygulaması oluşturdum. Örneği incelemek için repomu inceleyebilirsiniz.
 
 ### ✅ Bu eğitimde foreach döngüsünün tanımını ve kullanımını ve bir tane Örnek Sınav Sistemi Uygulaması ile öğrencilerin sayısını kullanıcıdan almayı, isimlerini ve not ortalamalarını saklayacak dizilerin kullanımını ve her bir öğrenci için 3 tane sınav notu girişinin nasıl yapıldığını öğrendim ve uyguladım.
+
+## 🖥️ C# Eğitim Kampı Ders 8 - Metotlar
+### 📆 Tarih: 19 Ekim 2024
+### 📋 C# Konsol Uygulaması ile Yapılan Uygulamalar:
+
+## 📍 Metotlar
+Metotlar, belirli bir işlevi yerine getirmek için hazırlanmış belirli bir kod bloğunu bir isim altında toplayıp kodu çalıştırmak istediğimiz yerde vermiş olduğumuz isimle çağırıp içerisindeki kodun yeniden kullanılmasına izin veren programlama yapılarıdır.
+
+### 📍 Parametresiz Metotlar
+C# parametresiz metotlar tanımlanırken herhangi bir parametre değerine bağlı olmadan içerisinde bulunan kod parçalarının çalıştırılmasına imkan veren metot türleridir.
+
