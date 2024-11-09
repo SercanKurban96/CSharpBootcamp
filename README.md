@@ -451,3 +451,33 @@ Bu örneğimizde ise bu kez int türünde Sum isminde bir metot belirleyip içer
 Metotları öğrendikten sonra öğrendiklerimizi pekiştirerek bir tane öğrencinin sınav notuna göre geçip geçemediğini belirleyen bir uygulama yaptım.
 
 ### ✅ Bu eğitimde metotların tanımını ve kullanımını, void metotları, geriye değer döndürmeyen string - int parametreli metotları, geriye değer döndüren string - int parametleri metotları ve metotlarla ilgili örnek uygulamanın adımlarını öğrendim ve uyguladım.
+
+## 🖥️ C# Eğitim Kampı Ders 9 - SQL Veri Tabanı ve Tablo Oluşturma & C# Kısmına Bağlama
+### 📆 Tarih: 22 Ekim 2024
+### 📋 C# Konsol Uygulaması ve SQL ile Yapılan Uygulamalar:
+
+## Microsoft SQL Server adlı programımızı açıyoruz. (Burada kurulumdan bahsedilmemiştir.)
+
+![image](https://github.com/user-attachments/assets/dedd4181-2eb1-4bff-8bf0-9cbc0bdf1a0b)
+
+SQL son sürümünü kullandığım için bu şekilde karşımıza çıkacaktır. Daha eski versiyonlarda farklı şekilde çıkacaktır. Connect dedikten sonra sol tarafta bulunan kısımlara bakalım.
+
+![image](https://github.com/user-attachments/assets/e2f073a8-4789-4667-b85b-761ae109a311)
+
+Buradan ilk olarak Databases klasörüne gidelim.
+
+![image](https://github.com/user-attachments/assets/dcd1491e-bbba-4ca6-8640-04d92e2fd903)
+
+Daha önceden veri tabanı oluşturmazsanız burası sizde boş gözükecektir. BootcampDb adında önceden bir veri tabanı oluşturmuştum.
+
+![Ekran görüntüsü 2024-11-09 205302](https://github.com/user-attachments/assets/bfba07a9-fe99-401c-89a7-c8d0c4ef7b27)
+
+Burada yeni bir veri tabanı oluşturmak için Databases klasörüne sağ tıklayıp New Database diyoruz.
+
+![image](https://github.com/user-attachments/assets/b9830800-9024-4590-a82c-b24d4a866146)
+
+Burada istediğiniz veri tabanın ismini verebilirsiniz. Örnek olarak EgitimKampiDb isminde bir veri tabanı oluşturduktan sonra OK diyoruz, ancak daha önce oluşturduğum BootcampDb veri tabanın üzerinden gidelim.
+
+![image](https://github.com/user-attachments/assets/941efff4-c29b-4d4d-9159-d9c5f38bc074)
+
+Veri tabanı oluşturulduktan sonra veri tabanımıza tıklayarak burada birçok klasörler görmekteyiz. Burada veri tabanına ait sütunları oluşturmak için Tables klasörüne sağ tıklayarak "New Table" diyoruz.
